@@ -1,5 +1,5 @@
-##Hades-adminfinder
-Tool for help you find a admin page
+## Hades-adminfinder
+ Tool for help you find a admin page
 
 ## How to run 🖥️️
 1. Clone the repo
