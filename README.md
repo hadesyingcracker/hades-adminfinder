@@ -12,7 +12,7 @@
    ```
 3. Run the app
    ```sh
-   python admin_finder.py
+   python hades_finder.py
    ```
 
 
