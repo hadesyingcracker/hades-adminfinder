@@ -1,11 +1,19 @@
-# hades-adminfinder
-Tool for find admin page
+##Hades-adminfinder
+Tool for help you find a admin page
 
-$ pkg install python3
+## How to run 🖥️️
+1. Clone the repo
+   ```sh
+   git clone https://github.com/hadesyingcracker/hades-adminfinder
+   ```
+2. Entry the path
+   ```sh
+   cd hades-adminfinder
+   ```
+3. Run the app
+   ```sh
+   python admin_finder.py
+   ```
 
-$ git clone 
 
 
-$ cd hades-adminfinder
-
-$ python3 hades_finder.py
