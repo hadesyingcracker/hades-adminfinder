@@ -4,11 +4,12 @@ import sys
 import requests
 import time
 
-
+#warna
 red = '\033[91m'
 green = '\033[92m'
 white = '\033[00m'
 
+#animasi
 def load_animation():    
     load_str = "i am not a hacker i am just tester..."
     ls_len = len(load_str) 
@@ -74,17 +75,20 @@ logo = '''
 
 print (red+logo+white)
 
+#inputan
 def main():
     print("\033[34m[*] \033[0mTarget Url http://contoh.com")
     target = input("Enter Target Url: ")
     url = target
 
+    #animasi
     start = "Start Scanning...\n"
     for s in start:
         sys.stdout.write(s)
         sys.stdout.flush()
         time.sleep(0.1)
     
+    #open file
     file = open("admin.txt", "r")	
     try:
         for link in file.read().splitlines():
